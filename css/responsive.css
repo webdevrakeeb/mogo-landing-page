@@ -1,0 +1,680 @@
+@media screen and (min-width:992px) {
+    .quote-img {
+        width: 30%;
+    }
+}
+
+/* responsive code for tablet device */
+@media screen and (min-width:768px) and (max-width:991px) {
+    .header-overlay {
+        padding-bottom: 125px;
+    }
+
+    .menu-area ul li {
+        margin-right: 15px;
+    }
+
+    .hero-details-area {
+        margin-top: 80px;
+    }
+
+    .hero-details-area h2 {
+        font-size: 65px;
+    }
+
+    .hero-details-area h1 {
+        font-size: 100px;
+        max-width: 100%;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .about-area-images, .need-mt {
+        margin-top: 30px;
+    }
+
+    .about-us-area {
+        padding-top: 55px;
+        padding-bottom: 65px;
+    }
+
+    .about-area-title h3 {
+        margin-top: 10px;
+        margin-bottom: 17px;
+    }
+
+    .count-area {
+        width: 32%;
+        padding: 28px 0px;
+    }
+
+    .amazing-services-area {
+        padding-top: 55px;
+        padding-bottom: 75px;
+    }
+
+    .amazing-area-title h3, .people-say-title h3, .blog-area-title h4 {
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+
+    .feature-area-overlay {
+        padding-top: 55px;
+    }
+
+    .feature-area-title h3, .we-do-title h3 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .what-we-do-area {
+        padding-top: 85px;
+        padding-bottom: 45px;
+    }
+
+    .about-area-title p, .we-do-title p, .meet-team-area-title p {
+        margin-top: 20px;
+    }
+
+    .we-do-desc {
+        margin-top: 30px;
+    }
+
+    .quote-area {
+        padding-top: 45px;
+        padding-bottom: 35px;
+    }
+
+    .quote-img {
+        width: 90%;
+    }
+
+    .quote-desc p {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    .meet-our-team-area {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .meet-team-area-title h2 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .members-area {
+        margin-top: 30px;
+    }
+
+    .our-works-area {
+        padding-top: 45px;
+    }
+
+    .our-works-title h3 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .testimonial-area {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .people-say-overlay {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    .people-desc p {
+        font-size: 12px;
+        margin-bottom: 45px;
+        text-align: justify;
+    }
+
+    .people-desc h4 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .people-desc {
+        padding-left: 12px;
+    }
+
+    .latest-blog-area {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footer-part-one p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        text-align: justify !important;
+    }
+
+    .footer-area hr {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .social-icon ul li a {
+        margin: 0 5px;
+    }
+
+    .footer-area {
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+
+}
+
+
+/* responsive design for big screen mobile */
+@media screen and (min-width:576px) and (max-width:767px) {
+    .menu-area {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        text-align: right;
+        margin-top: -24px;
+    }
+
+    .mobile-menu-icon i {
+        color: #ffffff;
+        font-size: 35px;
+        cursor: pointer;
+    }
+
+    .menu-area ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 18px;
+    } 
+
+    .hero-details-area {
+        margin-top: 60px;
+    }
+
+    .header-overlay {
+        padding-bottom: 75px;
+    }
+
+    .hero-details-area h2 {
+        font-size: 60px;
+    }
+
+    .hero-details-area h1 {
+        font-size: 90px;
+        max-width: 100%;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .about-us-area {
+        padding-top: 45px;
+        padding-bottom: 60px;
+    }
+
+    .about-area-title h3 {
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+
+    .about-area-title p, .we-do-title p, .meet-team-area-title p {
+        margin-top: 20px;
+    }
+
+    .about-area-images {
+        margin-top: 0;
+    }
+
+    .single-image img {
+        width: 100%;
+    }
+
+    .img-need-mt {
+        margin-top: 30px;
+    }
+
+    .count-area {
+        width: 50%;
+        border-left: 1px solid #B5EAE0;
+        border-bottom: 1px solid #B5EAE0;
+        border-right: 1px solid #B5EAE0;
+    }
+
+    .amazing-services-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .amazing-area-title h3, .people-say-title h3, .blog-area-title h4 {
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+
+    .amazing-area-body {
+        margin-top: 0 !important;
+    }
+
+    .feature-area-overlay {
+        padding-top: 45px;
+    }
+
+    .feature-area-title h3, .we-do-title h3 {
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+
+    .mocup-design img {
+        width: 50%;
+    }
+
+    .mobile-desing {
+        top: 49%;
+        left: 54.53%;
+    }
+
+    .what-we-do-area {
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+
+    .we-do-desc {
+        margin-top: 0;
+    }
+
+    .quote-img {
+        width: 100%;
+    }
+
+    .quote-desc p {
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+
+    .quote-area {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    #quote-owner {
+        width: 30px;
+    }
+
+    .quote-desc span {
+        font-size: 15px;
+    }
+
+    .meet-our-team-area {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .our-works-area {
+        padding-top: 50px;
+    }
+
+    .our-works-title h3 {
+        margin-top: 10px;
+        margin-bottom: 13px;
+    }
+
+    .works-pictures {
+        margin-top: 30px;
+    }
+
+    .testimonial-area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .people-say-overlay {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    .latest-blog-area {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .people-say-boxs {
+        margin-top: 30px;
+    }
+
+    .people-desc {
+        padding-left: 10px;
+    }
+
+    .people-desc h4 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .footer-part-two h4 {
+        margin-bottom: 10px;
+    }
+
+    .footer-part-two {
+        margin-top: 25px;
+    }
+
+    .footer-single-blog {
+        margin-bottom: 10px;
+    }
+
+    .footer-part-one {
+        margin-top: 25px;
+    }
+
+    .footer-part-one p {
+        margin-top: 12px;
+        margin-bottom: 15px;
+        text-align: left !important;
+    }
+
+    .footer-area hr {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+
+}
+
+
+/* responsive design for mobile device */
+@media screen and (max-width:575px) {
+    .menu-area {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        text-align: right;
+        margin-top: -24px;
+    }
+
+    .mobile-menu-icon i {
+        color: #ffffff;
+        font-size: 35px;
+        cursor: pointer;
+    }
+
+    .menu-area ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 18px;
+    }
+
+    .hero-details-area {
+        margin-top: 40px;
+    }
+
+    .hero-details-area h2 {
+        font-size: 38px;
+    }
+
+    .hero-details-area h1 {
+        font-size: 51px;
+        max-width: 100%;
+        margin-top: 27px;
+        margin-bottom: 38px;
+    }
+
+    .header-overlay {
+        padding-bottom: 60px;
+    }
+
+    .about-us-area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .about-area-title h3 {
+        font-size: 23px;
+        margin-top: 6px;
+        margin-bottom: 12px;
+    }
+
+    .about-area-title p, .we-do-title p, .meet-team-area-title p {
+        font-size: 13px;
+        margin-top: 13px;
+        text-align: justify;
+    }
+
+    .about-area-images {
+        margin-top: 0;
+    }
+
+    .img-need-mt {
+        margin-top: 30px;
+    }
+
+    .count-area {
+        width: 50%;
+        padding: 86px 33px;
+        text-align: center;
+        border-left: 1px solid #B5EAE0;
+        border-right: 1px solid #B5EAE0;
+        border-bottom: 1px solid #B5EAE0;
+        padding: 30px 15px;
+    }
+
+    .amazing-services-area {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    .amazing-area-body {
+        margin-top: 0;
+    }
+
+    .feature-area-overlay {
+        padding-top: 35px;
+    }
+
+    .feature-area-title h3, .we-do-title h3 {
+        font-size: 26px;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+
+    .mocup-design img {
+        width: 80%;
+    }
+
+    .mobile-desing {
+        top: 73%;
+        left: 75.53%;
+    }
+
+    .what-we-do-area {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .we-do-desc {
+        margin-top: 0;
+    }
+
+    .quote-area {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+
+    .mobile-design {
+        display: block;
+    }
+
+    .quote-img {
+       width: 100%;
+    }
+
+    .quote-img img {
+        width: 100px !important;
+    }
+
+    .quote-desc p {
+        font-size: 15px;
+        width: 100%;
+        text-align: justify;
+        padding: 0 25px;
+        margin-top: 15px;
+        margin-bottom: 7px;
+    }
+
+    #quote-owner {
+        width: 30px;
+        margin-left: 26px;
+    }
+
+    .quote-desc span {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    .meet-our-team-area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .meet-team-area-title h2 {
+        font-size: 28px;
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+
+    .members-area {
+        margin-top: 0;
+    }
+
+    .mobile-mt {
+        margin-top: 30px;
+    }
+
+    .singler-member h3 {
+        margin-top: 9px;
+        margin-bottom: 2px;
+    }
+
+    .our-works-area {
+        padding-top: 35px;
+    }
+
+    .our-works-title h3 {
+        font-size: 23px;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+
+    .works-pictures {
+        margin-top: 30px;
+    }
+
+    .single-works-img {
+        width: 100% !important;
+    }
+
+    .single-full-img {
+        width: 100%;
+    }
+
+    .right-half-img {
+        width: 100%;
+    }
+
+    .testimonial-area {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    .people-say-overlay {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    .amazing-area-title h3, .people-say-title h3, .blog-area-title h4 {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .people-say-boxs {
+        margin-top: 45px;
+    }
+
+    .single-people-say-box {
+        display: block;
+    }
+
+    .people-img {
+        text-align: center;
+    }
+    
+    .people-desc {
+        padding-left: 0;
+    }
+
+    .people-desc h3, .people-desc h4, .people-desc span {
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .people-desc span {
+        margin-bottom: 10px;
+    }
+
+    .latest-blog-area {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    .footer-part-two h4 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .footer-blog-desc {
+        padding-left: 5px;
+    }
+
+    .footer-blog-desc a h6 {
+        font-size: 10px;
+    }
+
+    .footer-part-one p {
+        font-size: 12px;
+        margin-top: 14px;
+        margin-bottom: 11px;
+        text-align: justify !important;
+    }
+
+    .footer-area hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .social-icon ul li a {
+        margin: 0 3px;
+    }
+
+    form {
+        font-size: 0;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+}
